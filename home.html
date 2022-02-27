@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div id="screen">
+        <div id="title"> 
+            Welcome to your dashboard
+        </div>
+        <div id="subtext">
+            Here you can manage and view upcoming tasks and deadlines.
+        </div>
+        <ul id="tasks">
+            <li> Mentor Introduction &emsp; 11/1 8:00am <span class="close">  x</span></li>
+            <li> CommonApp Essay Draft 1 &emsp; 11/10 8:00am <span class="close">  x</span></li>
+            <li> Columbia Early Decision &emsp; 11/21 8:00am <span class="close">  x</span></li>
+            <li> <form> <button id="newtask" onclick="addnew()"> + </button><input id="taskname" type="text" placeholder="add new task"></form></li>
+        </ul>
+        <div class="navbar"> 
+            <a id= "home" href="home.html"> <i class="material-icons" style="font-size: 28px;">home</i></a>
+            <a href="calendar.html"><i class="material-icons" style="font-size: 28px;">date_range</i></a>
+            <a href="documents.html"> <i class="material-icons" style="font-size: 28px;">library_books</i></a>
+            <a href=" chat.html"> <i class="material-icons" style="font-size: 28px;">forum</i></a>
+        </div>
+    </div>
+    <script>
+        //from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_close_list_items
+        var closebtns = document.getElementsByClassName("close");
+        var i;
+        
+        for (i = 0; i < closebtns.length; i++) {
+          closebtns[i].addEventListener("click", function() {
+            this.parentElement.style.display = 'none';
+          });
+        }
+
+        function addnew() {
+        var text = document.getElementById("taskname").value; 
+        var li = document.createElement("li");
+        li.textContent = text;
+        document.getElementById("tasks").appendChild(li);
+        document.getElementById("taskname").value = ""; // clear the value
+}
+    </script>
+</body>
+</html>

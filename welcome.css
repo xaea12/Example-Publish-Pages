@@ -1,0 +1,139 @@
+#screen{
+    box-sizing: border-box;
+    width: 375px;
+    height: 667px;
+    margin:auto;
+    background-color: white;
+}
+body{
+    background-color: lightblue;
+    font-family: 'Montserrat';
+}
+#welcome{
+    /* position: absolute;
+    width: 315px;
+    height: 30px;
+    left: calc(50% - 315px/2 + 2px);
+    top: calc(50% - 30px/2 - 226.5px); */
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 92px;
+
+}
+#subtext{
+    color: #616161;
+    padding-top: 20px;
+    margin: auto;
+    width: 290px;
+    height: 50px;
+    left: 32px;
+    top: 137px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+#q1{
+    margin: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 90px;
+    /* identical to box height */
+    text-align: center;
+}
+.button1{
+    padding: 13px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #C0C0F2;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 60px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: block;
+    border: 0px;
+}
+.button2{
+    padding: 13px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #C0C0F2;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 150px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: block;
+    border: 0px;
+}
+/* * {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .v9_13 {
+    width: 375px;
+    height: 667px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v9_16 {
+    width: 315px;
+    color: url("../images/v9_16.png");
+    position: absolute;
+    top: 92px;
+    left: 32px;
+    font-family: Montserrat;
+    font-weight: ExtraBold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v9_17 {
+    width: 310px;
+    color: rgba(96,96,96,1);
+    position: absolute;
+    top: 137px;
+    left: 32px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 13px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v9_19 {
+    width: 242px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 244px;
+    left: 66px;
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  
+   */

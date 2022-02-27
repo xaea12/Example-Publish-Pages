@@ -1,0 +1,143 @@
+#screen{
+    box-sizing: border-box;
+    width: 375px;
+    height: 667px;
+    margin:auto;
+    background-color: #e5e5e5;
+}
+body{
+    background-color: lightblue;
+    font-family: 'Montserrat';
+}
+#header{
+    width:100%;
+    background-color: #C0C0F2;
+    display:inline-block;
+    height: 60px;
+}
+#time{
+    text-align: center;
+    color: #616161;
+    margin-top: 10px;
+    font-size: 12px;
+}
+/* from https://codingislove.com/css-speech-bubbles/
+*/
+.sb7:before{
+content: "";
+width: 0px;
+height: 0px;
+position: absolute;
+border-left: 10px solid #c4c4c4;
+border-right: 10px solid transparent;
+border-top: 10px solid #c4c4c4;
+border-bottom: 10px solid transparent;
+left: 20px;
+bottom: -23px;
+}
+
+.sb7:after {
+content: "";
+width: 0px;
+height: 0px;
+position: absolute;
+border-left: 10px solid #c4c4c4;
+border-right: 10px solid transparent;
+border-top: 10px solid #c4c4c4;
+border-bottom: 10px solid transparent;
+left: 24px;
+bottom: -13px;
+}
+.box1{
+width: 50%;
+margin: 20px auto;
+margin-left:20px;
+border: 4px solid #c4c4c4;
+padding: 10px;
+text-align: left;
+font-weight: 600;
+color: #616161;
+position: relative;
+font-size: 11px;
+border-radius: 15px;
+background-color: #c4c4c4;
+}
+.box2{
+    width: 50%;
+    margin: 20px auto;
+    margin-left:135px;
+    border: 4px solid #C0C0F2;
+    padding: 10px;
+    text-align: left;
+    font-weight: 600;
+    color: #616161;
+    position: relative;
+    font-size: 11px;
+    border-radius: 15px;
+    background-color: #c0c0f2;
+    }
+.sb8:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #c0c0f2;
+    border-top: 10px solid #c0c0f2;
+    border-bottom: 10px solid transparent;
+    right: 20px;
+    bottom: -23px;
+  }
+  
+  .sb8:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #c0c0f2;
+    border-top: 10px solid #c0c0f2;
+    border-bottom: 10px solid transparent;
+    right: 24px;
+    bottom: -13px;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #C0C0F2;
+    width: 375px; 
+    height: 65px;
+    margin-top: 230px;
+  }
+  .navbar a {
+      margin-top: 5px;
+    float: left;
+    display: block;
+    color: #616161;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 25px;
+  }
+  #chat{
+      color: black;
+  }
+  .type input{
+    font-size: 14px;
+    width: 365px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 15px;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: #e5e5e5;
+    margin-top: 190px;
+}
+.type form {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+}

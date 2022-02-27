@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="personalprof.css">
+</head>
+<body>
+    <div id="screen">
+        <div id="title"> 
+            Tell us a little about <span style="color:#C0C0F2"> yourself</span>!
+        </div>
+        <form> 
+            <label for="fname"> first name: </label>
+            <input type="text" id="fname" name="fname"> <br>
+            <label for="lname"> last name: </label>
+            <input type="text" id="lname" name="lname"> <br>
+            <label for="email"> email: </label>
+            <input type="text" id="email" name="email"> <br>
+            <label for="year"> I am a: </label>
+                <select id="year" name="year">
+                    <option value="sr"> High School Senior</option>
+                    <option value="jr">High School Junior</option>
+                    <option value="graduated">High School Graduate</option>
+                    <option value="com">High School Graduate with an AA</option>
+                    <option value="transfer"> College Transfer Student</option>
+                </select>
+            <br>
+            <label for=hobby> hobbies and/or interests: </label>
+            <input type="hobby" id="hobby" name="hobby"> <br>
+            <label for="finaid"> are you considering financial aid?  </label>
+            <select id="finaid"  name="finaid">
+                <option value="y"> Yes</option>
+                <option value="n"> No</option>
+            </select>
+            <br>
+            <label for="identity"> select all that apply: </label>
+            <select id="identity" style="width:140px;" name="identity">
+                <option value="firstgen"> First Generation</option>
+                <option value="lowincome">Low-Income</option>
+                <option value="identity">Underrepresented Identity (BIPOC, religious minority, LGBTQ+, etc.)</option>
+                <option value="ath">Student Athlete</option>
+                <option value="international"> International Applicant</option>
+                <option value="lang"> Non-Native English Speaker</option>
+                <option value="international"> Differently Abled Student</option>
+            </select>
+        <br>
+        </form>
+        <a href= "./collegeprof.html"><button class="button button1" >build your college profile <span style="font-size: 20px;"> &#8250;</span> </button></a>
+    </div>
+</body>
+</html>

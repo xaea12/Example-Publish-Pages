@@ -1,0 +1,120 @@
+#screen{
+    box-sizing: border-box;
+    width: 375px;
+    height: 667px;
+    margin:auto;
+    background-color: white;
+}
+body{
+    background-color: lightblue;
+    font-family: 'Montserrat';
+}
+#title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 48px;
+
+}
+#subtext{
+    color: #616161;
+    padding-top: 10px;
+    margin: auto;
+    width: 290px;
+    height: 50px;
+    left: 32px;
+    top: 137px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#calendar{
+    border: 3px solid #C0C0F2;
+    margin: 15px;
+    border-radius: 15px;
+}
+#month{
+    text-align: center;
+}
+.weekdays {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13%;
+    color: #616161;
+    text-align: center;
+  }
+  .days {
+    padding: 10px 0;
+    margin: 0;
+    margin-left: 15px;
+  }
+  
+  .days li {
+    margin-left: 2px;
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    height: 28px;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 5px;
+    font-size:15px;
+    color: black;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+  }
+  .days .assign1 {
+    border: 2px solid blue;
+  }
+  .days li .assign2 {
+    border: 2px solid green;
+  }
+  .days li .assign3 {
+    border: 2px solid yellow;
+    border-radius: 50%;
+  }
+  #todo{
+      text-align: left;
+      margin-left: 50px;
+      font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+  }
+  #material-icons{
+      line-height: 25px;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #C0C0F2;
+    width: 375px; 
+    height: 65px;
+    margin-top: 65px;
+  }
+  .navbar a {
+      margin-top: 5px;
+    float: left;
+    display: block;
+    color: #616161;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 25px;
+  }
+  #cal{
+      color: black;
+  }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="collegeprof.css">
+</head>
+<body>
+    <div id="screen">
+        <div id="title"> 
+            What are you looking for in a <span style="color:#C0C0F2"> school</span>?
+        </div>
+        <form> 
+            <label for="fname"> intended major: </label>
+            <input type="text" id="fname" name="fname"> <br>
+            <label for="size"> school size: </label>
+                <select id="size" name="size">
+                    <option value="s"> Small</option>
+                    <option value="s/m">Small/Medium</option>
+                    <option value="m">Medium</option>
+                    <option value="m/l">Medium/Large</option>
+                    <option value="l"> Large</option>
+                </select>
+            <br>
+            <label for="region"> region (of U.S.A): </label>
+                <select id="region" name="region">
+                    <option value="w"> West</option>
+                    <option value="sw">Southwest</option>
+                    <option value="s">South</option>
+                    <option value="mw">Mid-West</option>
+                    <option value="midat">Mid-Atlantic</option>
+                    <option value="ne">New England</option>
+                </select>
+            <br>
+            <label for="loc"> location type: </label>
+                <select id="loc" name="loc">
+                    <option value="rur">Rural</option>
+                    <option value="urb">Urban</option>
+                </select>
+            <br>
+            <label for="weather"> weather: </label>
+                <select id="weather" name="weather">
+                    <option value="sunny">Very Warm</option>
+                    <option value="msunny">Mostly Warm</option>
+                    <option value="cool">Cool</option>
+                    <option value="mcool">Mostly Cool</option>
+                    <option value="scold">Sometimes Cold</option>
+                    <option value="mcold">Mostly Cold</option>
+                    <option value="rain">Rainy</option>
+                    <option value="windy">Windy</option>
+                    <option value="snowy">Snowy</option>
+                    <option value="humid">Humid</option>
+                </select>
+            <br>
+            <label for="polc"> political climate: </label>
+                <select id="polc" name="polc">
+                    <option value="vcons">Very Conservative</option>
+                    <option value="mcons">Mostly Conservative</option>
+                    <option value="mix">Mixed</option>
+                    <option value="lib">Mostly Liberal</option>
+                    <option value="vlib">Very Liberal</option>
+                </select>
+            <br>
+            <label for="campl"> campus life: </label>
+                <select id="campl" name="campl">
+                    <option value="acac">Academically Competitive</option>
+                    <option value="acar">Academically Rigorous</option>
+                    <option value="gl">Greek Life Presence</option>
+                    <option value="social">Big Social Scene</option>
+                    <option value="spirit"> Strong School Spirit</option>
+                </select>
+            <br>
+        </form>
+        <a href="./list.html"><button class="button button1"> next <span style="font-size: 20px;"> &#8250;</span> </button></a>
+    </div>
+</body>
+</html>

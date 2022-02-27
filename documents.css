@@ -1,0 +1,112 @@
+#screen{
+    box-sizing: border-box;
+    width: 375px;
+    height: 667px;
+    margin:auto;
+    background-color: white;
+}
+body{
+    background-color: lightblue;
+    font-family: 'Montserrat';
+}
+#title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 48px;
+
+}
+#subtext{
+    color: #616161;
+    padding-top: 10px;
+    margin: auto;
+    width: 290px;
+    height: 50px;
+    left: 32px;
+    top: 137px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+    color: #616161;
+}
+#buttoncontainer{
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    margin: 10px;
+    background-color: #C4C4C4;
+    border: 2px solid #C0C0F2;
+    border-radius: 15px;
+    padding:7px;
+}
+form{
+    text-align: center;
+    margin-top: 10px;
+}
+textarea{
+    border: 2px solid #C0C0F2;
+    width: 60%;
+    height: 60px;
+    border-radius: 15px;
+}
+#submit{
+    background-color:#C0C0F2;
+    border-radius: 15px;
+    border:none;
+    font-size: 12px;
+    padding:4px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+#doctitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 15px;
+    display: inline-block;
+}
+#dash{
+    display: inline-block;
+    margin-left: 1px;
+}
+#uploader{
+    font-size: 12px;
+    display: inline-block;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #C0C0F2;
+    width: 375px; 
+    height: 65px;
+    margin-top: 66px;
+  }
+  .navbar a {
+      margin-top: 5px;
+    float: left;
+    display: block;
+    color: #616161;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 25px;
+  }
+  #docs{
+      color: black;
+  }
